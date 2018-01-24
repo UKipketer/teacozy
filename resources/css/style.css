@@ -1,0 +1,103 @@
+*{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+section{
+  margin: auto;
+}
+header{
+  position: static;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+main{
+  position: absolute;
+  width: 100%;
+  margin: auto;
+}
+div.navtop{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 350px;
+  text-decoration: underline;
+  border-bottom: 1px solid seashell;
+  margin-right: 20px;
+}
+img.logo{
+  height:50px;
+  position: relative;
+  left: 10px;
+}
+section.container1{
+  background-image: url("../img/background.jpg");
+  height: 700px;
+  width: 1200px;
+  z-index: 99;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+h2{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+h4{
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.block img{
+  width: 300px;
+  height: 200px;
+}
+section.container3{
+  width: 1000px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+div.block{
+  margin: 0px 8px 0px 8px;
+}
+p.legende{
+  margin: 10px 0px 10px 0px;
+}
+p.location{
+  margin: 5px 0px 5px 0px;
+}
+section.container5{
+  background-image: url("../img/locations.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+div.location{
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0px 20px 0px 20px;
+}
+section.container6{
+  height: 200px;
+}
+footer{
+  text-align: left;
+  text-indent: 20px;
+}
