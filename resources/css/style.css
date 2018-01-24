@@ -46,15 +46,16 @@ section.container1{
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  margin-bottom: 60px;
 }
 h2{
-  margin-top: 5px;
+  margin-top: 20px;
   margin-bottom: 10px;
   font-size: 30px;
 }
 h4{
   margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 .block img{
   width: 300px;
@@ -80,9 +81,9 @@ section.container5{
   height: 500px;
   width: 1200px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   margin-top: 80px;
   margin-bottom: 40px;
 }
@@ -100,4 +101,10 @@ section.container6{
 footer{
   text-align: left;
   text-indent: 20px;
+}
+#Locations{
+  min-width: 990px;
+  background-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
